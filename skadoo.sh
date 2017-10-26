@@ -168,9 +168,6 @@ doallstuff(){
     # Install stuff
     installstuff
 
-    # Compress full
-    dofull
-
     # Compress shallow
     doshallow
 
