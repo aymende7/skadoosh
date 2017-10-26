@@ -8,15 +8,15 @@
 ### Manifest Configuration ###
 # Name of the ROM. No Spaces Please.
 # Example: CyanogenMod
-name=AOSP-CAF
+name=FlymeOS
 
 # Manifest link. https:// is mandatory.
 # Example: https://github.com/cyanogenmod/android
-manifest=https://github.com/AOSP-CAF/platform_manifest.git
+manifest=https://github.com/FlymeOS/manifest.git
 
 # Manifest branch.
 # Example: cm-14.0
-branch=n-mr2
+branch=marshmallow-6.0
 
 ### Finally, execute the stuff. ###
 /bin/bash skadoo.sh $name $manifest $branch
